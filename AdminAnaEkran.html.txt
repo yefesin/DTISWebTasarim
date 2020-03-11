@@ -1,0 +1,56 @@
+<div class="form">
+      
+      <ul class="tab-group">
+        <li class="tab active"><a href="#kullanıcıkayıt">Kullanıcı Kayıt</a></li>
+       
+        <li class="tab"><a href="#hedefekle">Hedef Ekle</a></li>
+        
+        <li class="tab"><a href="#ayarlar">Ayarlar</a></li>
+      </ul>
+      
+      <div class="tab-content">
+        <div id="kullanıcıkayıt">   
+          <h1>Kullanıcı Kayıt</h1>
+          
+          <form action="/" method="post">
+
+
+          <div class="field-wrap">
+            <label>
+              Kullanıcı Adı Soyadı<span class="req"></span>
+            </label>
+            <input type="sicil no"required autocomplete="off"/>
+          </div>
+             <div class="field-wrap">
+            <label>
+              Kullanıcı Sicil Numarası<span class="req"></span>
+            </label>
+            <input type="sicil no"required autocomplete="off"/>
+          </div>
+          
+         <div class="field-wrap">
+            <label>
+              Kullanıcı TC Kimlik Numarası<span class="req"></span>
+            </label>
+            <input type="TC no"required autocomplete="off"/>
+          </div>
+          
+          <button type="submit" class="button button-block"/>Kaydet</button>
+          
+          </form>
+
+        </div>
+        
+        <div id="hedefekle">   
+          <h1>Hedef Ekle</h1>
+          
+          
+       <button class="button button-block"/>Kaydet</button>
+          
+          </form>
+
+        </div>
+        
+      </div><!-- tab-content -->
+      
+</div> <!-- /form -->
