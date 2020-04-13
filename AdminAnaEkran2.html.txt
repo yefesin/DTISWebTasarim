@@ -1,0 +1,95 @@
+<div class="form">
+      
+      <ul class="tab-group">
+        <li class="tab active"><a href="#kullanıcıkayıt">Kullanıcı Kayıt</a></li>
+       
+        <li class="tab"><a href="#hedefekle">Hedef Ekle</a></li>
+        
+        <li class="tab"><a href="#ayarlar">Ayarlar</a></li>
+      </ul>
+      
+      <div class="tab-content">
+        <div id="kullanıcıkayıt">   
+          <h1>Kullanıcı Kayıt</h1>
+          
+          <form action="/" method="post">
+
+
+          <div class="field-wrap">
+            <label>
+              Kullanıcı Adı Soyadı<span class="req"></span>
+            </label>
+            <input type="Ad Soyad"required autocomplete="off"/>
+          </div>
+             <div class="field-wrap">
+            <label>
+              Kullanıcı Sicil Numarası<span class="req"></span>
+            </label>
+            <input type="sicil no"required autocomplete="off"/>
+          </div>
+          
+         <div class="field-wrap">
+            <label>
+              Kullanıcı TC Kimlik Numarası<span class="req"></span>
+            </label>
+            <input type="TC no"required autocomplete="off"/>
+          </div>
+            
+        <label for="statu">Yeni Kullanıcı Statusu:</label>    <div class="box">
+    <select>
+    <option>Personel</option>
+    <option>Yetkili</option>
+    </select>
+</div>
+    
+          <button type="submit" class="button button-block"/>Kullanıcıyı Sisteme Ekle</button>
+          
+          </form>
+
+        </div>
+          
+            <div id="hedefekle">   
+          <h1>Hedef Ekle</h1>
+          
+          <form action="/" method="post">
+          
+            <div class="field-wrap">
+            <label>
+              Hedef Adı Soyadı<span class="req">*</span>
+            </label>
+            <input type="Adısoyadı"required autocomplete="off"/>
+          </div>
+          
+          <div class="field-wrap">
+            <label>
+              Hedef Kod Adı<span class="req"></span>
+            </label>
+            <input type="kodadı"required autocomplete="off"/>
+          </div>
+            
+            <div class="field-wrap">
+            <label>
+              Suçlu Derecesi<span class=""></span>
+            </label>
+            <input type="derece"required autocomplete="off"/>
+          </div>
+         
+          <button class="button button-block"/>Kaydet</button>
+          
+          </form>
+           </div>
+  
+   <div id="ayarlar">   
+          <h1>Ayarlar</h1>
+          
+          <form action="/" method="post">
+                    
+          <button class="button button-block"/>Kaydet</button>
+          
+          </form>
+
+        </div>   
+        
+      </div><!-- tab-content -->
+      
+</div> <!-- /form -->
